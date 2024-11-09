@@ -1,15 +1,8 @@
-Here’s a tailored README for your repository, **Automated Delete Tweets**. Feel free to adjust specific details as needed.
-
----
-
 # **Automated Delete Tweets**  
-
-[![License](https://img.shields.io/github/license/Aafimalek/automated_delete_tweets.svg)](LICENSE)
 
 ## **Project Description**  
 **Automated Delete Tweets** is a Python-based tool designed to help users manage and delete their tweets in bulk. Whether you want to clear all your past tweets or delete specific ones based on selection criteria, this tool provides an efficient solution. Ideal for anyone looking to clean up their Twitter feed with minimal effort!
 
----
 
 ## **Table of Contents**
 1. [Installation](#installation)
@@ -43,6 +36,7 @@ Follow these steps to set up the project locally:
 
 4. **Configure Twitter API keys**:  
    To interact with Twitter's API, you'll need to set up API keys. Store these keys in `config.py` as environment variables.
+   Note:- You'll need elevated v1.1 api acess in order to delete tweets
 
 ---
 
@@ -103,7 +97,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### **Features**  
 - Bulk tweet deletion
-- Customizable filters for selecting tweets
 - Twitter API authentication checker
 
 ### **Known Issues / Limitations**  
