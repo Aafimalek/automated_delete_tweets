@@ -61,6 +61,7 @@ After configuring your API keys, you can start using the tool to delete tweets. 
     ```
 
 > **Note**: Each script is modular, allowing you to authenticate, fetch tweet IDs, and delete tweets independently.
+> If you don't want to use this method use tamper monekey extesnion from chrome browser and open twitter.com and then run the .js file it will delete the oldest tweets from the timeline 
 
 ---
 
