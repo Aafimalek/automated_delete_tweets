@@ -1,15 +1,13 @@
 # **Automated Delete Tweets**  
 
 ## **Project Description**  
-**Automated Delete Tweets** is a Python-based tool designed to help users manage and delete their tweets in bulk. Whether you want to clear all your past tweets or delete specific ones based on selection criteria, this tool provides an efficient solution. Ideal for anyone looking to clean up their Twitter feed with minimal effort!
+**Automated Delete Tweets** is a Python-based tool designed to help users manage and delete their tweets in bulk. If you want to clear all your past tweets this tool provides an efficient solution. Ideal for anyone looking to clean up their Twitter feed with minimal effort!
 
 
 ## **Table of Contents**
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Contributing](#contributing)
-4. [License](#license)
-5. [Additional Sections](#additional-sections)
+3. [Additional Sections](#additional-sections)
 
 ---
 
@@ -44,53 +42,19 @@ Follow these steps to set up the project locally:
 
 After configuring your API keys, you can start using the tool to delete tweets. Below are basic usage instructions for the different files:
 
-1. **Check Authentication Status**:
-    ```bash
-    python auth-status.py
-    ```
-
-2. **Fetch Tweet IDs**:  
-   This script fetches tweet IDs for deletion based on selected criteria.
-    ```bash
-    python fetch-tweet-id.py
-    ```
-
-3. **Delete Selected Tweets**:
+1. **Delete Selected Tweets**:
     ```bash
     python delete-tweet.py
     ```
 
+2. **Tamper Moneky**
+   ```
+   use extension like tamper monkey and create a new script and copy-paste the 'tweet_delete.js' file and save the script
+   then open x.com and go to profile section and enable the script and refresh the page.
+   ```
+
 > **Note**: Each script is modular, allowing you to authenticate, fetch tweet IDs, and delete tweets independently.
 > If you don't want to use this method use tamper monekey extesnion from chrome browser and open twitter.com and then run the .js file it will delete the oldest tweets from the timeline 
-
----
-
-## **Contributing Guidelines**
-
-We welcome contributions to enhance the tool's functionality! To contribute:
-
-1. **Fork this repository** and create your feature branch:
-    ```bash
-    git checkout -b feature/NewFeature
-    ```
-
-2. **Commit your changes** with clear messages:
-    ```bash
-    git commit -m "Add NewFeature: Description"
-    ```
-
-3. **Push to the branch**:
-    ```bash
-    git push origin feature/NewFeature
-    ```
-
-4. Open a **Pull Request** with a description of the changes.
-
----
-
-## **License Information**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
